@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PackJar:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PackJar_jar</output-path>
+    <root id="archive" name="PackJar.jar">
+      <element id="module-output" name="PackJar" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/ow2/asm/asm-util/7.0/asm-util-7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/ow2/asm/asm/7.0/asm-7.0.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: org.ow2.asm:asm:7.0" />
+      <element id="library" level="project" name="Maven: org.ow2.asm:asm-util:7.0" />
+      <element id="library" level="project" name="Maven: org.ow2.asm:asm-tree:7.0" />
+      <element id="library" level="project" name="Maven: org.ow2.asm:asm-analysis:7.0" />
+    </root>
+  </artifact>
+</component>

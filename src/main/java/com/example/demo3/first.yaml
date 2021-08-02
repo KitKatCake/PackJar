@@ -1,0 +1,109 @@
+--- 
+companies:
+  - id: 1
+    name: company1
+    price: 200w
+  - id: 2
+    name: company2
+    price: 500w
+
+
+boolean:
+  - TRUE
+  - FALSE
+
+float:
+  - 3.14
+  - 6.8523015e+5
+
+int:
+  - 123
+  - 0b1010_0111_0100_1010_1110
+
+animals: pets
+
+hash: {name:Steve, foo:bar}
+
+  - Cat
+  - Dog
+  - Goldfish
+
+  - - Cat
+    - Dog
+    - Goldfish
+
+
+languages:
+  - Ruby
+  - Perl
+  - Python
+websites:
+  YAML: yaml.org
+  Ruby: ruby-lang.org
+  Python: python.org
+  Perl: use.perl.org
+
+
+isSet: true
+
+str: 这是一行字符串
+
+defaults: &defaults
+  adapter: postgres
+  host: localhost
+
+development:
+  database: myapp_development
+  <<: *defaults
+
+test:
+  database: myapp_test
+  <<: *defaults
+
+- &showell Steve
+- Clarj
+- Brain
+- Oren
+- *showell
+
+- Apple
+- Orange
+- Strawberry
+- Mango
+
+
+
+martin:
+  name: Martin D'vloper
+  job: Developer
+  skill: Elite
+
+
+- matrin:
+    name: Martin D'vloper
+    job: Developer
+    skill:
+      - python
+      - perl
+      - pascal
+- tabitha:
+    name: Tabitha Bitumen
+    job: Developer
+    skill:
+      - lisp
+      - fortran
+      - erlang
+
+
+martins: {name: Martin D'vloper,job: Developer,skill: Elite}
+['Apple','Orange','strawberry','Mango']
+
+
+
+
+
+
+
+
+
+
